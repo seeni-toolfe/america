@@ -78,55 +78,20 @@
                             text-decoration: underline;
                         }
                         
-                        .link1.active {
-                            color: red;
+                        .active-link {
+                            color: red !important;
                         }
                     </style>
-                    <!-- <div class="collapse navbar-collapse bg-white" id="navbarNav">
-                        <ul class="navbar-nav alt-font sm-ms-70px" style="margin-left:130px;">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link nav-link1" style="color:#1D2C4E;">Programs</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="admission.html" class="nav-link nav-link1" style="color:#1D2C4E;">Admissions</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link nav-link1" style="color:#1D2C4E;">Student Support</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link nav-link1" style="color:#1D2C4E;">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link nav-link1" style="color:#1D2C4E;">Contact Us</a>
-                            </li>
-                            <li class="nav-item dropdown dropdown-with-icon">
-                                <a href="#" class="nav-link nav-link1" style="color:#1D2C4E;">More</a>
-                            </li>
-                        </ul>
-                    </div> -->
-
-                    <script>
-                        document.addEventListener("DOMContentLoaded", function() {
-                            const Links = document.querySelectorAll('.link1');
-
-                            Links.forEach(link => {
-                                link.addEventListener('click', function(event) {
-                                    Links.forEach(link => link.classList.remove('active'));
-                                    this.classList.add('active');
-                                });
-                            });
-                        });
-                    </script>
                     <div class="collapse navbar-collapse bg-white" id="navbarNav">
                         <ul class="navbar-nav alt-font sm-ms-70px" style="margin-left:130px;">
                             <li class="nav-item">
-                                <a href="academic-page.html" class="nav-link link1" style="color:#1D2C4E;">Academic</a>
+                                <a href="academic-page.html" class="nav-link link1" style="color:#1D2C4E;">Academics</a>
                                 <li class="nav-item">
                                     <a href="admission.html" class="nav-link link1" style="color:#1D2C4E;">Admissions</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="student-support.html" class="nav-link link1" style="color:#1D2C4E;">Student
+                                    <a href="student-support.html" class="nav-link link1 fw-bold " style="color:#1D2C4E; opacity: 1;">Student
                                     Support</a>
                                 </li>
                                 <li class="nav-item">
@@ -144,7 +109,7 @@
                                         <li>
                                             <a href="demo-elearning-courses-details.html"> <i class="bi bi-laptop"></i>
                                             <div class="submenu-icon-content">
-                                                <span>Online Resources</span>
+                                                <span>Blogs</span>
                                                 <!-- <p>Develop professional skills</p> -->
                                     <!-- </div>
                                             </a>
