@@ -25,6 +25,43 @@
 
 </head>
 
+<script>
+    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?98167';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+        "enabled": true,
+        "chatButtonSetting": {
+            "backgroundColor": "#4dc247",
+            "ctaText": "",
+            "borderRadius": "25",
+            "marginLeft": "0",
+            "marginBottom": "50",
+            "marginRight": "50",
+            "position": "right"
+        },
+        "brandSetting": {
+            "brandName": "American Imperial University",
+            "brandSubTitle": "Typically replies within a day",
+            "brandImg": "images/AIU_Images and logos/Logo/AIU_Logo_v01-01.svg",
+            "welcomeText": "Hi there!\nHow can I help you?",
+            "messageText": "Hello, I have a question about {{page_title}}",
+            "backgroundColor": "#1d4a05",
+            "ctaText": "Start Chat",
+            "borderRadius": "25",
+            "autoShow": false,
+            "phoneNumber": "427654778"
+        }
+    };
+    s.onload = function() {
+        CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+</script>
+
 <body data-mobile-nav-trigger-alignment="right" data-mobile-nav-style="modern" data-mobile-nav-bg-color="#454546">
     <!-- start header -->
     <header>
@@ -307,7 +344,7 @@
                         <div class="feature-box text-start ps-30px pe-25px xl-pe-5px sm-top-minus-150px sm-left-minus-20px" style="margin-left: auto;">
                             <div class="feature-box-content d-flex flex-row gap-4 last-paragraph-no-margin pt-10px md-pt-21 sm-pt-40px" style="margin-bottom: 60px; margin-top: 50px; margin-left: -60px;">
                                 <img class="h-100px w-100px mt-5 m-lg-2 fas fa-minus d-none d-md-block d-lg-block d-xl-block " src="./images/AIU_Images and logos/Icons/Frame 627636.png" alt="">
-                                <div class="sm-w-350px" style="text-align: justify;">
+                                <div class="sm-w-350px">
                                     <span class="text-dark-gray fs-18 d-inline-block fw-600 mb-2px" style="color:#E0263E;">Vibrant
                                         Community</span>
                                     <p class="fw-500" style=" padding-right: 100px;">
@@ -1571,7 +1608,7 @@
                     Unlock Your Potential with World-Class Education </p>
                 <p class="" style="margin-right: auto; text-align: justify;">Thank you for considering American Imperial University for your educational journey. Please take a moment to provide us with some details so we can assist you in the best possible way.</p>
                 <div class="container sm-pe-0px" style="margin-bottom: 50px ; padding-left: 0px !important;padding-right: 0px !important;">
-                    <form method="POST" action="process_form.php">
+                    <form method="" action="">
                         <div class="row mt-15" style="margin-left: -15px; margin-bottom: 10px;">
                             <div class="form-group col-md-6 " style=" padding-left: 15px !important;padding-right: 0px !important;">
                                 <label class="accordion-title lg-fs-1 position-relative pe-0 text-dark-gray fw-600 mb-0" for="inputFullName">Full Name <span class="text-red">*</span></label>
