@@ -54,6 +54,43 @@
 
 </head>
 
+<script>
+    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?98167';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+        "enabled": true,
+        "chatButtonSetting": {
+            "backgroundColor": "#4dc247",
+            "ctaText": "",
+            "borderRadius": "25",
+            "marginLeft": "0",
+            "marginBottom": "50",
+            "marginRight": "50",
+            "position": "right"
+        },
+        "brandSetting": {
+            "brandName": "American Imperial University",
+            "brandSubTitle": "Typically replies within a day",
+            "brandImg": "images/AIU_Images and logos/Logo/AIU_Logo_v01-01.svg",
+            "welcomeText": "Hi there!\nHow can I help you?",
+            "messageText": "Hello, I have a question about {{page_title}}",
+            "backgroundColor": "#1d4a05",
+            "ctaText": "Start Chat",
+            "borderRadius": "25",
+            "autoShow": false,
+            "phoneNumber": "427654778"
+        }
+    };
+    s.onload = function() {
+        CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+</script>
+
 <body data-mobile-nav-trigger-alignment="right" data-mobile-nav-style="modern" data-mobile-nav-bg-color="#454546">
     <!-- start header -->
     <header>
@@ -271,15 +308,15 @@
                         <li class="grid-item craft transition-inner-all">
                             <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                 <div class="image">
-                                    <a href="#">
+                                    <p>
                                         <img src="images/AIU_Images and logos/student-supp/academi-1.png" alt="">
-                                    </a>
+                                    </p>
                                 </div>
                                 <div class="bg-white position-relative">
                                     <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
                                         <div class="d-flex align-items-center mb-5px">
-                                            <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Strategic
-                                                Partnership</a>
+                                            <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Strategic Partnership
+                                            </p>
                                         </div>
                                         <div class="d-flex align-items-center" style="min-height: 170px;">
                                             <p class="">We collaborate with students to craft tailored academic plans, guiding them from course selection to degree attainment for success.</p>
@@ -294,15 +331,15 @@
                         <li class="grid-item craft transition-inner-all">
                             <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                 <div class="image">
-                                    <a href="#">
+                                    <p>
                                         <img src="images/AIU_Images and logos/student-supp/academi-3.png" alt="">
-                                    </a>
+                                        </a>
                                 </div>
                                 <div class="bg-white position-relative">
                                     <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
                                         <div class="d-flex align-items-center mb-5px">
-                                            <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Expert
-                                                Guidance</a>
+                                            <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Expert Guidance
+                                                </a>
                                         </div>
                                         <div class="d-flex align-items-center" style="min-height: 170px;">
                                             <p class="">With the expertise of our advisors, students can confidently navigate academic challenges and make informed decisions about their future.
@@ -318,15 +355,15 @@
                         <li class="grid-item enrichment transition-inner-all">
                             <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                 <div class="image">
-                                    <a href="#">
+                                    <p>
                                         <img src="images/AIU_Images and logos/student-supp/academi-4.png" alt="">
-                                    </a>
+                                        </a>
                                 </div>
                                 <div class="bg-white position-relative">
                                     <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
                                         <div class="d-flex align-items-center mb-5px">
-                                            <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Career
-                                                Exploration</a>
+                                            <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Career Exploration
+                                                </a>
                                         </div>
                                         <div class="d-flex align-items-center" style="min-height: 170px;">
                                             <p class="">Our advisors support students in exploring career options that match their interests and studies, providing tailored guidance and resources for success.</p>
@@ -341,15 +378,15 @@
                         <li class="grid-item enrichment transition-inner-all">
                             <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                 <div class="image">
-                                    <a href="#">
+                                    <p>
                                         <img src="images/AIU_Images and logos/student-supp/academi-5.png" alt="">
-                                    </a>
+                                        </a>
                                 </div>
                                 <div class="bg-white position-relative">
                                     <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
                                         <div class="d-flex align-items-center mb-5px">
-                                            <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Professional
-                                                Development</a>
+                                            <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Professional Development
+                                                </a>
                                         </div>
                                         <div class="d-flex align-items-center" style="min-height: 170px;">
                                             <p class="">We provide resources and support to help students develop the skills and experiences necessary for success in their chosen fields.</p>
@@ -364,15 +401,15 @@
                         <li class="grid-item empower transition-inner-all">
                             <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                 <div class="image">
-                                    <a href="#">
+                                    <p>
                                         <img src="images/AIU_Images and logos/student-supp/academi-6.png" alt="">
-                                    </a>
+                                        </a>
                                 </div>
                                 <div class="bg-white position-relative">
                                     <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
                                         <div class="d-flex align-items-center mb-5px">
-                                            <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Academic
-                                                Support</a>
+                                            <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Academic Support
+                                                </a>
                                         </div>
                                         <div class="d-flex align-items-center" style="min-height: 170px;">
                                             <p class="">Our advisors link students to resources and support, aiding them in mastering subjects or enhancing study techniques for academic success.
@@ -388,15 +425,15 @@
                         <li class="grid-item empower transition-inner-all">
                             <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                 <div class="image">
-                                    <a href="#">
+                                    <p>
                                         <img src="images/AIU_Images and logos/student-supp/academi-7.png" alt="">
-                                    </a>
+                                        </a>
                                 </div>
                                 <div class="bg-white position-relative">
                                     <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
                                         <div class="d-flex align-items-center ">
-                                            <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Research
-                                                Opportunities</a>
+                                            <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Research Opportunities
+                                                </a>
                                         </div>
                                         <div class="d-flex align-items-center" style="min-height: 175px;">
                                             <p class="">We steer students towards research chances to delve deeper into their interests and make meaningful contributions to their field.</p>
@@ -411,15 +448,15 @@
                         <li class="grid-item forge transition-inner-all">
                             <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                 <div class="image">
-                                    <a href="#">
+                                    <p>
                                         <img src="images/AIU_Images and logos/student-supp/academi-8.png" alt="">
-                                    </a>
+                                        </a>
                                 </div>
                                 <div class="bg-white position-relative">
                                     <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
                                         <div class="d-flex align-items-center mb-5px">
-                                            <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-100">Graduate School
-                                                Preparation</a>
+                                            <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-100">Graduate School Preparation
+                                                </a>
                                         </div>
                                         <div class="d-flex align-items-center" style="min-height: 200px;">
                                             <p class="">Advisors offer guidance and support to students exploring further education, aiding in navigating graduate school applications and selecting suitable programs for their goals.</p>
@@ -434,15 +471,15 @@
                         <li class="grid-item forge transition-inner-all">
                             <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                 <div class="image">
-                                    <a href="#">
+                                    <p>
                                         <img src="images/AIU_Images and logos/student-supp/academi-9.png" alt="">
-                                    </a>
+                                        </a>
                                 </div>
                                 <div class="bg-white position-relative">
                                     <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
                                         <div class="d-flex align-items-center mb-5px">
-                                            <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Professional
-                                                Networking</a>
+                                            <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Professional Networking
+                                                </a>
                                         </div>
                                         <div class="d-flex align-items-center" style="min-height: 200px;">
                                             <p class="">We facilitate student networking and mentorship programs, fostering connections within their chosen industry for career advancement.
@@ -458,15 +495,14 @@
                         <li class="grid-item seize transition-inner-all">
                             <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                 <div class="image">
-                                    <a href="#">
+                                    <p>
                                         <img src="images/AIU_Images and logos/student-supp/academi-10.png" alt="">
-                                    </a>
+                                        </a>
                                 </div>
                                 <div class="bg-white position-relative">
                                     <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
                                         <div class="d-flex align-items-center mb-5px">
-                                            <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Take the
-                                                First Step</a>
+                                            <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Take the First Step</a>
                                         </div>
                                         <div class="d-flex align-items-center" style="min-height: 200px;">
                                             <p class="">Schedule an appointment with an academic advisor today to begin your journey toward academic and professional success.</p>
@@ -481,15 +517,14 @@
                         <li class="grid-item seize transition-inner-all">
                             <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                 <div class="image">
-                                    <a href="#">
+                                    <p>
                                         <img src="images/AIU_Images and logos/student-supp/academi-11.png" alt="">
-                                    </a>
+                                        </a>
                                 </div>
                                 <div class="bg-white position-relative">
                                     <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
                                         <div class="d-flex align-items-center mb-5px">
-                                            <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Unleash
-                                                Your Potential</a>
+                                            <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Unleash Your Potential</a>
                                         </div>
                                         <div class="d-flex align-items-center" style="min-height: 200px;">
                                             <p class="">We're dedicated to unleashing your potential and realizing your aspirations. With our Academic Advising, limitless possibilities await.
@@ -531,12 +566,12 @@
                         <p class=" fw-400 mb-5px d-block fs-15 sm-fs-13 mb-5px" style="color: #1C2B4B;line-height: 2rem;">Your journey to success starts here
                         </p>
                         <div class="overflow-hidden">
-                            <a href="#" class="btn btn-base-color btn-extra-large btn-rounded  btn-switch-text fw-600 d-inline-block  sm-me-10px pe-3 ps-3" style=" background-color: #E0263E;">
+                            <p class="btn btn-base-color btn-extra-large btn-rounded  btn-switch-text fw-600 d-inline-block  sm-me-10px pe-3 ps-3" style=" background-color: #E0263E;">
                                 <span class="p-0 m-auto d-flex justify-content-center">
                                 <span  class="fs-10 fw-400 btn-double-text text-white d-flex" style="align-content: center ;"
                                 data-text="Meet Your Advisor">Meet Your Advisor</span>
                                 <img class="w-15 h-15 ms-6" src="images/AIU_Images and logos/student-supp/rocket.svg" alt="">
-                            </a>
+                                </a>
                         </div>
 
 
