@@ -1,12 +1,5 @@
 /* -------------------------------------------------------
 
-    Theme Name: Crafto - The Multipurpose HTML5 Template
-    Theme URL: https://craftohtml.themezaa.com/
-    Description: Elevate your online presence with Crafto - a modern, versatile, multipurpose Bootstrap 5 responsive HTML5, SCSS template using highly creative 48+ ready demos.
-    Author: ThemeZaa - https://www.themezaa.com/
-    Author ThemeForest URL: https://themeforest.net/user/themezaa
-    Copyright(c) 2024 themezaa.com
-    Version: 1.0
 
 ------------------------------------------------------- */
 
@@ -13556,8 +13549,9 @@ blockquote footer {
 
 .btn.btn-transparent-base-color {
     background-color: transparent;
-    border-color: var(--base-color);
-    color: var(--base-color);
+    border-color: #E0263E;
+    color: #E0263E;
+    ;
 }
 
 .btn.btn-transparent-base-color:hover,
@@ -24834,3 +24828,17 @@ footer .footer-navbar .nav-item:last-child a {
     position: relative;
     border-radius: 100%;
 }
+
+
+/* jishnu start */
+
+.jishstuSup {
+    margin-top: 10px;
+}
+
+.bg-body-jishnu {
+    background-color: #F7F8FA;
+}
+
+
+/* jishnu end */
