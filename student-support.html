@@ -55,7 +55,7 @@
 </head>
 
 <script>
-    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?98167';
+    var url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?75953';
     var s = document.createElement('script');
     s.type = 'text/javascript';
     s.async = true;
@@ -63,25 +63,26 @@
     var options = {
         "enabled": true,
         "chatButtonSetting": {
-            "backgroundColor": "#4dc247",
-            "ctaText": "",
+            "backgroundColor": "#00e785",
+            "ctaText": "Chat with us",
             "borderRadius": "25",
             "marginLeft": "0",
-            "marginBottom": "50",
-            "marginRight": "50",
+            "marginRight": "20",
+            "marginBottom": "20",
+            "ctaIconWATI": false,
             "position": "right"
         },
         "brandSetting": {
             "brandName": "American Imperial University",
-            "brandSubTitle": "Typically replies within a day",
+            "brandSubTitle": "undefined",
             "brandImg": "images/AIU_Images and logos/Logo/AIU_Logo_v01-01.svg",
             "welcomeText": "Hi there!\nHow can I help you?",
-            "messageText": "Hello, I have a question about {{page_title}}",
-            "backgroundColor": "#1d4a05",
-            "ctaText": "Start Chat",
+            "messageText": "Hello, %0A I have a question about {{page_link}}",
+            "backgroundColor": "#00e785",
+            "ctaText": "Chat with us",
             "borderRadius": "25",
-            "autoShow": false,
-            "phoneNumber": "427654778"
+            "autoShow": true,
+            "phoneNumber": "971050869321"
         }
     };
     s.onload = function() {
@@ -287,7 +288,7 @@
         <div class="container overlap-gap-section">
             <div class="row align-items-center mb-4">
                 <div class="col-xl-5 lg-mb-30px text-center text-xl-start">
-                    <h3 class="alt-font text-dark-gray fw-600 ls-minus-3px mb-0 text-red-100">Academic Advising</h3>
+                    <h3 class="alt-font fw-600 ls-minus-3px mb-0 text-red-100">Academic Advising</h3>
                 </div>
                 <div class="col-xl-7 tab-style-04 text-center text-xl-end">
                     <!-- filter navigation -->
@@ -317,11 +318,11 @@
                                 </div>
                                 <div class="bg-white position-relative">
                                     <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
-                                        <div class="d-flex align-items-center mb-5px">
+                                        <div class="d-flex align-items-center ">
                                             <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Strategic Partnership
                                             </p>
                                         </div>
-                                        <div class="d-flex align-items-center" style="min-height: 170px;">
+                                        <div class="d-flex " style="min-height: 170px;">
                                             <p class="">We collaborate with students to craft tailored academic plans, guiding them from course selection to degree attainment for success.</p>
                                         </div>
                                     </div>
@@ -340,11 +341,11 @@
                                 </div>
                                 <div class="bg-white position-relative">
                                     <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
-                                        <div class="d-flex align-items-center mb-5px">
+                                        <div class="d-flex align-items-center">
                                             <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Expert Guidance
                                                 </a>
                                         </div>
-                                        <div class="d-flex align-items-center" style="min-height: 170px;">
+                                        <div class="d-flex " style="min-height: 170px;">
                                             <p class="">With the expertise of our advisors, students can confidently navigate academic challenges and make informed decisions about their future.
                                             </p>
                                         </div>
@@ -364,11 +365,11 @@
                                 </div>
                                 <div class="bg-white position-relative">
                                     <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
-                                        <div class="d-flex align-items-center mb-5px">
+                                        <div class="d-flex align-items-center">
                                             <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Career Exploration
                                                 </a>
                                         </div>
-                                        <div class="d-flex align-items-center" style="min-height: 170px;">
+                                        <div class="d-flex" style="min-height: 170px;">
                                             <p class="">Our advisors support students in exploring career options that match their interests and studies, providing tailored guidance and resources for success.</p>
                                         </div>
                                     </div>
@@ -387,11 +388,11 @@
                                 </div>
                                 <div class="bg-white position-relative">
                                     <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
-                                        <div class="d-flex align-items-center mb-5px">
+                                        <div class="d-flex align-items-center">
                                             <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Professional Development
                                                 </a>
                                         </div>
-                                        <div class="d-flex align-items-center" style="min-height: 170px;">
+                                        <div class="d-flex" style="min-height: 170px;">
                                             <p class="">We provide resources and support to help students develop the skills and experiences necessary for success in their chosen fields.</p>
                                         </div>
                                     </div>
@@ -410,11 +411,11 @@
                                 </div>
                                 <div class="bg-white position-relative">
                                     <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
-                                        <div class="d-flex align-items-center mb-5px">
+                                        <div class="d-flex align-items-center ">
                                             <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Academic Support
                                                 </a>
                                         </div>
-                                        <div class="d-flex align-items-center" style="min-height: 170px;">
+                                        <div class="d-flex " style="min-height: 170px;">
                                             <p class="">Our advisors link students to resources and support, aiding them in mastering subjects or enhancing study techniques for academic success.
                                             </p>
                                         </div>
@@ -438,7 +439,7 @@
                                             <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Research Opportunities
                                                 </a>
                                         </div>
-                                        <div class="d-flex align-items-center" style="min-height: 175px;">
+                                        <div class="d-flex " style="min-height: 170px;">
                                             <p class="">We steer students towards research chances to delve deeper into their interests and make meaningful contributions to their field.</p>
                                         </div>
                                     </div>
@@ -457,11 +458,11 @@
                                 </div>
                                 <div class="bg-white position-relative">
                                     <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
-                                        <div class="d-flex align-items-center mb-5px">
+                                        <div class="d-flex align-items-center">
                                             <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-100">Graduate School Preparation
                                                 </a>
                                         </div>
-                                        <div class="d-flex align-items-center" style="min-height: 200px;">
+                                        <div class="d-flex" style="min-height: 200px;">
                                             <p class="">Advisors offer guidance and support to students exploring further education, aiding in navigating graduate school applications and selecting suitable programs for their goals.</p>
                                         </div>
                                     </div>
@@ -480,11 +481,11 @@
                                 </div>
                                 <div class="bg-white position-relative">
                                     <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
-                                        <div class="d-flex align-items-center mb-5px">
+                                        <div class="d-flex align-items-center">
                                             <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Professional Networking
                                                 </a>
                                         </div>
-                                        <div class="d-flex align-items-center" style="min-height: 200px;">
+                                        <div class="d-flex " style="min-height: 200px;">
                                             <p class="">We facilitate student networking and mentorship programs, fostering connections within their chosen industry for career advancement.
                                             </p>
                                         </div>
@@ -504,11 +505,11 @@
                                 </div>
                                 <div class="bg-white position-relative">
                                     <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
-                                        <div class="d-flex align-items-center mb-5px">
+                                        <div class="d-flex align-items-center ">
                                             <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Take the First Step
                                                 </a>
                                         </div>
-                                        <div class="d-flex align-items-center" style="min-height: 200px;">
+                                        <div class="d-flex " style="min-height: 200px;">
                                             <p class="">Schedule an appointment with an academic advisor today to begin your journey toward academic and professional success.</p>
                                         </div>
                                     </div>
@@ -527,11 +528,11 @@
                                 </div>
                                 <div class="bg-white position-relative">
                                     <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
-                                        <div class="d-flex align-items-center mb-5px">
+                                        <div class="d-flex align-items-center">
                                             <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Unleash Your Potential
                                                 </a>
                                         </div>
-                                        <div class="d-flex align-items-center" style="min-height: 200px;">
+                                        <div class="d-flex " style="min-height: 200px;">
                                             <p class="">We're dedicated to unleashing your potential and realizing your aspirations. With our Academic Advising, limitless possibilities await.
                                             </p>
                                         </div>
@@ -567,8 +568,8 @@
                         <div>
                             <span class="fw-600 mb-5px d-block fs-15 sm-fs-16 mb-5px" style="color: #1C2B4B;line-height: 2rem;">Empowering Your Journey</span>
                         </div>
-                        <p class="fw-500 mb-5px d-block fs-15 sm-fs-13 mb-5px" style="color: #1C2B4B;line-height: 2rem;">Let our Academic Advising team guide you toward your goals and empower you to reach new heights.</p>
-                        <p class=" fw-400 mb-5px d-block fs-15 sm-fs-13 mb-5px" style="color: #1C2B4B;line-height: 2rem;">Your journey to success starts here
+                        <p class="fw-500 mb-5px d-block fs-16 lh-30 sm-fs-13 mb-5px" style="color: #1C2B4B;">Let our Academic Advising team guide you toward your goals and empower you to reach new heights.</p>
+                        <p class=" fw-400 mb-5px d-block fs-16 lh-30 sm-fs-13 mb-5px" style="color: #1C2B4B;">Your journey to success starts here
                         </p>
                         <div class="overflow-hidden">
                             <p class="btn btn-base-color btn-extra-large btn-rounded  btn-switch-text fw-600 d-inline-block  sm-me-10px pe-3 ps-3" style=" background-color: #E0263E;">
@@ -634,7 +635,7 @@
                     </div>
                 </div>
                 <div class="col-12 position-absolute top-0 h-100 d-flex justify-content-center align-items-center left-0px z-index-1 text-center">
-                    <h4 class="alt-font text-dark-gray fs-80 fw-700 ls-minus-2px xs-ls-minus-1px mb-0 mt-40px xs-mt-15px" style="color: #E0263E ;">
+                    <h4 class="alt-font  fs-55 fw-700 ls-minus-2px xs-ls-minus-1px mb-0 mt-40px xs-mt-15px" style="color: #E0263E ;">
                         Online Resources
                     </h4>
                 </div>
@@ -644,11 +645,11 @@
             <div class="row align-items-start justify-content-center mb-3 xs-mb-12">
                 <div class="col-xl-5 col-lg-6 col-md-10 position-relative md-mb-20px text-center text-lg-start" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
 
-                    <h3 class="alt-font text-dark-gray fw-600 ls-minus-3px text-red-100">Fuel your <br> Academic Journey
+                    <h3 class="alt-font fw-600 ls-minus-3px text-red-100">Fuel your <br> Academic Journey
                     </h3>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-10 offset-xl-1 text-center text-lg-start last-paragraph-no-margin" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <span class="fw-600 mb-5px text-dark-gray d-block fs-18">Online Resources at American Imperial
+                    <span class="fw-600 mb-5px text-dark-gray d-block fs-20 lh-28">Online Resources at American Imperial
                         University</span>
                     <p class=" lg-w-100">Welcome to the gateway of limitless possibilities, where knowledge meets innovation and success knows no bounds. Explore our arsenal of digital tools designed to elevate your academic experience, regardless of your location or schedule.
                         Immerse yourself in boundless support and excellence.</p>
@@ -715,7 +716,7 @@
                                 <div class="bg-white position-relative">
                                     <div class="border-bottom border-color-transparent-dark-very-light p-4" style="min-height: 170px;">
                                         <div class="d-flex align-items-center mb-5px">
-                                            <p class="text-dark-gray mt-60  fw-600 fs-14 lh-22 w-90">Elevate Your Academic Prowess</p>
+                                            <p class="text-dark-gray mb-1 fw-600 fs-14 lh-22 w-90">Elevate Your Academic Prowess</p>
                                         </div>
                                         <div class="d-flex lh-sm align-items-center ">
                                             <p class="fs-12">Tap into academic support services like tutoring and writing assistance. Conquer challenges and achieve academic success.</p>
@@ -869,7 +870,7 @@
                     Technical Support Avengers
                 </h2>
                 <div class="accordion text-start lf-3" id="accordion-style-07">
-                    <p class="lh-base" style="text-align: justify;">In the digital landscape of academia, technical glitches can feel like roadblocks on your path to success. But fear not, for our Technical Support Avengers are here to ensure your journey remains uninterrupted and your ambitions unbound.
+                    <p class="lh-26 fs-16" style="text-align: justify;">In the digital landscape of academia, technical glitches can feel like roadblocks on your path to success. But fear not, for our Technical Support Avengers are here to ensure your journey remains uninterrupted and your ambitions unbound.
                         Equipped with the latest tools and expertise, our team stands ready to vanquish any digital foe obstructing your path to enlightenment. From troubleshooting software snags to navigating the labyrinth of online platforms, consider
                         us your digital knights, sworn to uphold the sanctity of your online learning experience. With our unwavering support, technical challenges become mere stepping stones on your ascent to academic greatness.</p>
                     <div class="overflow-hidden">
@@ -888,7 +889,7 @@
 
     <!-- start student support section -->
     <section class="container-fluid bg-tranquil py-5">
-        <h2 class="alt-font text-dark-gray text-center mb-3 fw-600 ls-minus-3px text-red-100">Values</h2>
+        <h2 class="alt-font text-center mb-3 fw-600 ls-minus-3px text-red-100">Values</h2>
         <div class="container">
             <div class="row">
                 <div class="col-12 p-0 filter-content ">
@@ -900,12 +901,12 @@
                             <!-- start features box item -->
                             <div class="card rounded-0 align-items-center py-5">
                                 <div class="text-center">
-                                    <p class="card-text fw-bold sm-fs-13 sm-mt-10 fs-15" style=" color:#1D2C4E; line-height: 2rem;">Personalized Guidance</p>
+                                    <p class="card-text fw-bold sm-fs-13 sm-mt-10 fs-16 lh-30" style=" color:#1D2C4E;">Personalized Guidance</p>
                                 </div>
                                 <img src="./images/AIU_Images and logos/student-supp/guide1.svg" class="card-img-top h-80px w-100px mt-10px" alt="...">
                                 <div class="card-body">
                                     <div class="text-center">
-                                        <p class="card-text fs-16 sm-fs-13 sm-mt-10" style=" color:#1D2C4E; line-height: 2rem; min-height: 100px;">Embark on a journey with career navigators to align your path with your aspirations.
+                                        <p class="card-text fs-16 lh-30 sm-fs-13 sm-mt-10" style=" color:#1D2C4E; min-height: 100px;">Embark on a journey with career navigators to align your path with your aspirations.
                                         </p>
                                     </div>
                                 </div>
@@ -918,12 +919,12 @@
                             <!-- start features box item -->
                             <div class="card rounded-0 align-items-center py-5">
                                 <div class="text-center">
-                                    <p class="card-text fw-bold sm-fs-13 sm-mt-10 fs-15" style=" color:#1D2C4E; line-height: 2rem;">Unlock Potential</p>
+                                    <p class="card-text fw-bold sm-fs-13 sm-mt-10 fs-16 lh-30" style=" color:#1D2C4E;">Unlock Potential</p>
                                 </div>
                                 <img src="./images/AIU_Images and logos/student-supp/unlock.svg" class="card-img-top h-80px w-100px mt-10px" alt="...">
                                 <div class="card-body">
                                     <div class="text-center">
-                                        <p class="card-text fs-16 sm-fs-13 sm-mt-10" style=" color:#1D2C4E; line-height: 2rem; min-height: 100px;">Discover your strengths with career assessments to craft a precise strategic plan.
+                                        <p class="card-text fs-16 lh-30 sm-fs-13 sm-mt-10" style=" color:#1D2C4E; min-height: 100px;">Discover your strengths with career assessments to craft a precise strategic plan.
                                         </p>
                                     </div>
                                 </div>
@@ -936,12 +937,12 @@
                             <!-- start features box item -->
                             <div class="card rounded-0 align-items-center py-5">
                                 <div class="text-center">
-                                    <p class="card-text fw-bold sm-fs-13 sm-mt-10 fs-15" style=" color:#1D2C4E; line-height: 2rem;">Resume & Interview</p>
+                                    <p class="card-text fw-bold sm-fs-13 sm-mt-10 fs-16 lh-30" style=" color:#1D2C4E;">Resume & Interview</p>
                                 </div>
                                 <img src="./images/AIU_Images and logos/student-supp/resume.svg" class="card-img-top h-80px w-100px mt-10px" alt="...">
                                 <div class="card-body">
                                     <div class="text-center">
-                                        <p class="card-text fs-16 sm-fs-13 sm-mt-10" style=" color:#1D2C4E; line-height: 2rem; min-height: 100px;">Transform your experiences into compelling resumes and master interviews.
+                                        <p class="card-text fs-16 lh-30 sm-fs-13 sm-mt-10" style=" color:#1D2C4E; min-height: 100px;">Transform your experiences into compelling resumes and master interviews.
                                         </p>
                                     </div>
                                 </div>
@@ -954,12 +955,12 @@
                             <!-- start features box item -->
                             <div class="card rounded-0 align-items-center py-5">
                                 <div class="text-center">
-                                    <p class="card-text fw-bold sm-fs-13 sm-mt-10 fs-15" style=" color:#1D2C4E; line-height: 2rem;">Job Search</p>
+                                    <p class="card-text fw-bold sm-fs-13 sm-mt-10 fs-16 lh-30" style=" color:#1D2C4E;">Job Search</p>
                                 </div>
                                 <img src="./images/AIU_Images and logos/student-supp/guide1.svg" class="card-img-top h-80px w-100px mt-10px" alt="...">
                                 <div class="card-body">
                                     <div class="text-center">
-                                        <p class="card-text fs-16 sm-fs-13 sm-mt-10" style=" color:#1D2C4E; line-height: 2rem; min-height: 100px;">Navigate career opportunities with strategic job search guidance.
+                                        <p class="card-text fs-16 lh-30 sm-fs-13 sm-mt-10" style=" color:#1D2C4E; min-height: 100px;">Navigate career opportunities with strategic job search guidance.
                                         </p>
                                     </div>
                                 </div>
@@ -973,12 +974,12 @@
                             <!-- start features box item -->
                             <div class="card rounded-0 align-items-center py-5">
                                 <div class="text-center">
-                                    <p class="card-text fw-bold sm-fs-13 sm-mt-10 fs-15" style=" color:#1D2C4E; line-height: 2rem;">Experiential Learning</p>
+                                    <p class="card-text fw-bold sm-fs-13 sm-mt-10 fs-16 lh-30" style=" color:#1D2C4E;">Experiential Learning</p>
                                 </div>
                                 <img src="./images/AIU_Images and logos/student-supp/experiential.svg" class="card-img-top h-80px w-100px mt-10px" alt="...">
                                 <div class="card-body">
                                     <div class="text-center">
-                                        <p class="card-text fs-16 sm-fs-13 sm-mt-10" style=" color:#1D2C4E; line-height: 2rem; min-height: 100px;">Engage in hands-on projects and immersive experiences for professional growth.
+                                        <p class="card-text fs-16 lh-30 sm-fs-13 sm-mt-10" style=" color:#1D2C4E; min-height: 100px;">Engage in hands-on projects and immersive experiences for professional growth.
 
                                         </p>
                                     </div>
@@ -992,12 +993,12 @@
                             <!-- start features box item -->
                             <div class="card rounded-0 align-items-center py-5">
                                 <div class="text-center">
-                                    <p class="card-text fw-bold sm-fs-13 sm-mt-10 fs-15" style=" color:#1D2C4E; line-height: 2rem;">Professional Workshops</p>
+                                    <p class="card-text fw-bold sm-fs-13 sm-mt-10 fs-16 lh-30" style=" color:#1D2C4E;">Professional Workshops</p>
                                 </div>
                                 <img src="./images/AIU_Images and logos/student-supp/professional.svg" class="card-img-top h-80px w-100px mt-10px" alt="...">
                                 <div class="card-body">
                                     <div class="text-center">
-                                        <p class="card-text fs-16 sm-fs-13 sm-mt-10" style=" color:#1D2C4E; line-height: 2rem; min-height: 100px;">Equip yourself with essential skills through workshops and professional events.
+                                        <p class="card-text fs-16 lh-30 sm-fs-13 sm-mt-10" style=" color:#1D2C4E; min-height: 100px;">Equip yourself with essential skills through workshops and professional events.
                                         </p>
                                     </div>
                                 </div>
@@ -1010,12 +1011,12 @@
                             <!-- start features box item -->
                             <div class="card rounded-0 align-items-center py-5">
                                 <div class="text-center">
-                                    <p class="card-text fw-bold sm-fs-13 sm-mt-10 fs-15" style=" color:#1D2C4E; line-height: 2rem;">Networking Nexus</p>
+                                    <p class="card-text fw-bold sm-fs-13 sm-mt-10 fs-16 lh-30" style=" color:#1D2C4E;">Networking Nexus</p>
                                 </div>
                                 <img src="./images/AIU_Images and logos/student-supp/networking.svg" class="card-img-top h-80px w-100px mt-10px" alt="...">
                                 <div class="card-body">
                                     <div class="text-center">
-                                        <p class="card-text fs-16 sm-fs-13 sm-mt-10" style=" color:#1D2C4E; line-height: 2rem; min-height: 100px;">Forge valuable connections with tailored networking opportunities.
+                                        <p class="card-text fs-16 lh-30 sm-fs-13 sm-mt-10" style=" color:#1D2C4E; min-height: 100px;">Forge valuable connections with tailored networking opportunities.
                                         </p>
                                     </div>
                                 </div>
@@ -1028,12 +1029,12 @@
                             <!-- start features box item -->
                             <div class="card rounded-0 align-items-center py-5 ">
                                 <div class="text-center">
-                                    <p class="card-text fw-bold sm-fs-13 sm-mt-10 fs-15" style=" color:#1D2C4E; line-height: 2rem;">Stay Inspired</p>
+                                    <p class="card-text fw-bold sm-fs-13 sm-mt-10 fs-16 lh-30" style=" color:#1D2C4E;">Stay Inspired</p>
                                 </div>
                                 <img src="./images/AIU_Images and logos/student-supp/stay.svg" class="card-img-top h-80px w-100px mt-10px" alt="...">
                                 <div class="card-body">
                                     <div class="text-center">
-                                        <p class="card-text fs-16 sm-fs-13 sm-mt-10 " style=" color:#1D2C4E; line-height: 2rem; min-height: 100px;">Stay informed with the latest career insights and inspiration.
+                                        <p class="card-text fs-16 lh-30 sm-fs-13 sm-mt-10 " style=" color:#1D2C4E; min-height: 100px;">Stay informed with the latest career insights and inspiration.
                                         </p>
                                     </div>
                                 </div>

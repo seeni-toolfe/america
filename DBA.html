@@ -25,7 +25,7 @@
 </head>
 
 <script>
-    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?98167';
+    var url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?75953';
     var s = document.createElement('script');
     s.type = 'text/javascript';
     s.async = true;
@@ -33,25 +33,26 @@
     var options = {
         "enabled": true,
         "chatButtonSetting": {
-            "backgroundColor": "#4dc247",
-            "ctaText": "",
+            "backgroundColor": "#00e785",
+            "ctaText": "Chat with us",
             "borderRadius": "25",
             "marginLeft": "0",
-            "marginBottom": "50",
-            "marginRight": "50",
+            "marginRight": "20",
+            "marginBottom": "20",
+            "ctaIconWATI": false,
             "position": "right"
         },
         "brandSetting": {
             "brandName": "American Imperial University",
-            "brandSubTitle": "Typically replies within a day",
+            "brandSubTitle": "undefined",
             "brandImg": "images/AIU_Images and logos/Logo/AIU_Logo_v01-01.svg",
             "welcomeText": "Hi there!\nHow can I help you?",
-            "messageText": "Hello, I have a question about {{page_title}}",
-            "backgroundColor": "#1d4a05",
-            "ctaText": "Start Chat",
+            "messageText": "Hello, %0A I have a question about {{page_link}}",
+            "backgroundColor": "#00e785",
+            "ctaText": "Chat with us",
             "borderRadius": "25",
-            "autoShow": false,
-            "phoneNumber": "427654778"
+            "autoShow": true,
+            "phoneNumber": "971050869321"
         }
     };
     s.onload = function() {
@@ -186,7 +187,7 @@
                 <div class="col-xl-7 col-lg-6 col-md-12 text-center text-lg-start position-relative z-index-1 justify-content-center h-100 md-mt-0 md-mb-20px xs-mb-10px sm-pt-70px sm-bottom-minus-70px" style="padding-top: 150px; align-content: center;">
                     <span class="fs-60 sm-fs-40 ls-minus-2px "><span class="fw-400 " style="color:#1D2C4E;">DBA in</span><br> <span class="fw-bolder border-bottom border-color-extra-medium-gray pb-1" style="color:#E0263E;">Strategic Leadership</span></span>
                     <div class="mb-30px sm-mb-10px mt-5px w-100 md-w-60 sm-w-100 d-block mx-auto mx-lg-0 overflow-hidden">
-                        <span class="fw-600 opacity-12 sm-fs-6 d-inline-block mt-3" style="color:#1D2C4E; font-size: 18px; line-height: 1.5rem;">Mastering the Future: <span class=" text-light-gray fw-400">Where Expertise Meets Strategic Vision</span></span>
+                        <span class="fw-600 opacity-12 sm-fs-6 d-inline-block mt-3" style="color:#1D2C4E; font-size: 18px; line-height: 1.5rem;">Mastering the Future : <span class=" text-light-gray fw-400">Where Expertise Meets Strategic Vision</span></span>
                     </div>
                     <div class="row row-cols-3 justify-content-center counter-style-04 w-100 md-w-auto position-absolute lg-position-relative bottom-80px lg-bottom-0px lg-mt-50px">
                         <!-- start counter item -->
@@ -246,7 +247,7 @@
                                 <!-- start tab content -->
                                 <div class="tab-pane fade in active show" id="tab_five1">
                                     <div class="row" style="text-align: justify; margin-left: -25px;">
-                                        <div class="col-12 last-paragraph-no-margin fs-15 ">
+                                        <div class="col-12 last-paragraph-no-margin fs-16 ">
                                             <ul>
                                                 <li>• Applicants must have earned a master's degree from an accredited post-secondary institution.</li>
                                                 <li>• 5 years of professional experience or more at leading projects or teams.</li>
