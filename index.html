@@ -62,8 +62,8 @@
             "backgroundColor": "#00e785",
             "ctaText": "Chat with us",
             "borderRadius": "25",
-            "autoShow": true,
-            "phoneNumber": "971050869321"
+            "autoShow": false,
+            "phoneNumber": "+1 786-894-3131"
         }
     };
     s.onload = function() {
@@ -320,7 +320,7 @@
                                 <div class="feature-box text-start ps-30px pe-25px xl-pe-5px sm-top-minus-100px sm-left-minus-10px">
                                     <div class="feature-box-content d-flex flex-row gap-3 last-paragraph-no-margin pt-10px md-pt-21 sm-pt-40px sm-right-minus-25px" style="margin-bottom: 20px; margin-left: -50px; margin-right: 150px; margin-top: -10px;">
 
-                                        <img class="h-120px w-120px mt-5px m-lg-2 fas fa-minus d-none d-md-block d-lg-block d-xl-block " src="./images/AIU_Images and logos/Icons/ABicon1.png" alt="">
+                                        <img class="h-120px w-120px mt-5px m-lg-2 fas fa-minus d-none d-md-block d-lg-block d-xl-block " src="./images/AIU_Images and logos/Icons/ABicon1.svg" alt="">
                                         <div class="sm-w-250px" style="line-height: 1.7;  margin-left: auto; margin-right: auto;">
                                             <span class="lh-30 fs-18 d-inline-block fw-600 mb-2px" style="color:#E0263E;">Empowering
                                                 Individuals </span>
@@ -338,7 +338,7 @@
                             <div class="" style="max-width: 80%; margin-left: auto">
                                 <div class="feature-box text-start ps-30px pe-25px xl-pe-5px sm-top-minus-120px sm-right-90px sm-left-minus-130px" style="margin-top: 40px; margin-left: auto;">
                                     <div class="feature-box-content d-flex flex-row gap-3 align-items-center last-paragraph-no-margin pt-10px md-pt-21 sm-pt-40px" style="padding: auto; margin-right: auto">
-                                        <img class="h-120px w-120px mt-5px m-lg-auto fas fa-minus d-none d-md-block d-lg-block d-xl-block " src="./images/AIU_Images and logos/Icons/ABicon2.png" alt="">
+                                        <img class="h-120px w-120px mt-5px m-lg-auto fas fa-minus d-none d-md-block d-lg-block d-xl-block " src="./images/AIU_Images and logos/Icons/ABicon2.svg" alt="">
                                         <div class="sm-w-250px" style="margin-bottom: 20px;">
                                             <span class="lh-30 fs-18 d-inline-block fw-600 mb-2px" style="color:#E0263E;">Beyond
                                                 Boundaries </span>
@@ -355,7 +355,7 @@
                         <!-- start features box item -->
                         <div class="feature-box text-start ps-30px pe-25px xl-pe-5px sm-top-minus-150px sm-left-minus-20px" style="margin-left: auto;">
                             <div class="feature-box-content d-flex flex-row gap-4 last-paragraph-no-margin pt-10px md-pt-21 sm-pt-40px" style="margin-bottom: 60px; margin-top: 50px; margin-left: -60px;">
-                                <img class="h-100px w-100px mt-5 m-lg-2 fas fa-minus d-none d-md-block d-lg-block d-xl-block " src="./images/AIU_Images and logos/Icons/Frame 627636.png" alt="">
+                                <img class="h-100px w-100px mt-5 m-lg-2 fas fa-minus d-none d-md-block d-lg-block d-xl-block " src="./images/AIU_Images and logos/Icons/ABicon3.svg" alt="">
                                 <div class="sm-w-350px">
                                     <span class="lh-30 fs-18 d-inline-block fw-600 mb-2px" style="color:#E0263E;">Vibrant
                                         Community</span>
@@ -1182,7 +1182,7 @@
     <!-- special section end -->
     <!-- university edge section start  -->
     <section class="container-fluid bg-tranquil">
-        <div class="container-fluid sm-pt-70px sm-mt-25 md-pt-50px">
+        <div class="container-fluid sm-pt-20px md-pt-50px">
             <div class="row position-relative mt-0px xs-mt-20px " style="margin-top: 0px;">
                 <div class="col swiper swiper-width-auto feather-shadow text-center" data-slider-options='{ "slidesPerView": "auto", "spaceBetween":80, "centeredSlides": true, "speed": 30000, "loop": true, "pagination": { "el": ".slider-four-slide-pagination-2", "clickable": false }, "allowTouchMove": false, "autoplay": { "delay":1, "disableOnInteraction": false }, "navigation": { "nextEl": ".slider-four-slide-next-2", "prevEl": ".slider-four-slide-prev-2" }, "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "slide" }'>
                     <div class="swiper-wrapper marquee-slide">
@@ -1652,7 +1652,7 @@
     <!-- end section -->
     <!--start admission -->
     <section class="container ">
-        <div class="row justify-content-center align-items-center" style="margin-left:auto;">
+        <div class="row justify-content-center align-items-center" style="margin-left:auto;" id="lead-form">
 
             <div class="col-xl-7 col-lg-6 text-center md-mb-50px sm-mb-30px " data-anime='{ "el": "childs", "opacity": [0, 1], "duration": 600,
              "delay": 100, "staggervalue": 200, "easing": "easeOutQuad" }'>
@@ -1707,8 +1707,10 @@
                         <div class="form-group col-md-12" style="margin-bottom: 20px;">
                             <label class="accordion-title lg-fs-1 position-relative pe-0 fw-600 mb- text-blue-100" for="inputProgramofInterest">Program of Interest <span style="color: #E0263E ;">*</span></label>
                             <select id="inputProgramofInterest" class="form-select form-control h-50px border border-success pl-1 border-opacity-10 rounded-pill bg-body-secondary text-gray-100" name="program_of_interest" style="font-size: 12px;">
-                                <option selected>Choose Your Interest</option>
-                                <option>...</option>
+                                <option disabled selected>Choose Your Interest</option>
+                                <option value="MBA in International Business">MBA in International Business</option>
+                                <option value="MSc in Data Analytics">MSc in Data Analytics</option>
+                                <option value="DBA in Strategic Leadership">DBA in Strategic Leadership</option>
                             </select>
                         </div>
                         <div class="form-group col-md-12">
