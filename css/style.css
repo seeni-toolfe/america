@@ -49,13 +49,13 @@ Table of contents
     --base-color: #f70505;
     --white: #ffffff;
     --black: #000000;
-    --red: #dc3131;
+    --red: #e0263e;
     --light-red: #feedec;
     --green: #2ebb79;
     --crusoe-green: #d39121;
     --yellow: #ffea23;
-    --dark-gray: #232323;
-    --medium-gray: #717580;
+    --dark-gray: #1d2c4e;
+    --medium-gray: #666666;
     --extra-medium-gray: #e4e4e4;
     --light-gray: #a8a8a8;
     --very-light-gray: #f7f7f7;
@@ -21944,7 +21944,7 @@ canvas {
 /* Testimonial style 12 */
 
 .testimonials-style-12 .swiper-button-next-nav {
-    right: -8px;
+    right: -15px;
 }
 
 .testimonials-style-12 .swiper-button-next-nav:hover {
@@ -21952,7 +21952,7 @@ canvas {
 }
 
 .testimonials-style-12 .swiper-button-previous-nav {
-    left: -8px;
+    left: -15px;
 }
 
 .testimonials-style-12 .swiper-button-previous-nav:hover {
