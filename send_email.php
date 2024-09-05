@@ -1,8 +1,8 @@
 <?php
     // Include PHPMailer classes
-    require 'mailer/src/Exception.php';
-    require 'mailer/src/PHPMailer.php';
-    require 'mailer/src/SMTP.php';
+    require 'email-templates/phpmailer/Exception.php';
+    require 'email-templates/phpmailer/PHPMailer.php';
+    require 'email-templates/phpmailer/SMTP.php';
 
     // Import PHPMailer classes into the global namespace
     use PHPMailer\PHPMailer\PHPMailer;
